@@ -10,6 +10,7 @@
     "topleft topleft topright"
     "bottomleft logo topright"
     "bottomleft bottomright bottomright";
+  transition: grid-template-columns 1s, grid-template-rows 1s;
 }
 
 .logo { 
