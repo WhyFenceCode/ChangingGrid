@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
 body {
   background-color: black;
   margin: none;
   padding: none;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
