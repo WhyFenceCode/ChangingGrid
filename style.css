@@ -22,11 +22,17 @@ body {
 .logo { 
   grid-area: logo;
   background-color: #fada5e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .topleft { 
   grid-area: topleft; 
   background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .topleft:hover {
@@ -36,6 +42,9 @@ body {
 .topright { 
   grid-area: topright;
   background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .topright:hover {
@@ -45,6 +54,9 @@ body {
 .bottomleft { 
   grid-area: bottomleft;
   background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bottomleft:hover {
@@ -54,6 +66,9 @@ body {
 .bottomright { 
   grid-area: bottomright; 
   background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bottomright:hover {
