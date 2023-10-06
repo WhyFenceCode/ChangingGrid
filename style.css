@@ -26,7 +26,7 @@ body {
 
 .topleft { 
   grid-area: topleft; 
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .topleft:hover {
@@ -35,7 +35,7 @@ body {
 
 .topright { 
   grid-area: topright;
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .topright:hover {
@@ -44,7 +44,7 @@ body {
 
 .bottomleft { 
   grid-area: bottomleft;
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .bottomleft:hover {
@@ -53,7 +53,7 @@ body {
 
 .bottomright { 
   grid-area: bottomright; 
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .bottomright:hover {
