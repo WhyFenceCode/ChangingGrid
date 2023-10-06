@@ -1,0 +1,54 @@
+.container {
+  width: 100vw;
+  hight: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1.5fr 1fr 1.5fr;
+  gap: 1% 1%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "topleft topleft topright"
+    "bottomleft logo topright"
+    "bottomleft bottomright bottomright";
+}
+
+.logo { 
+  grid-area: logo;
+  background-color: yellow;
+}
+
+.topleft { 
+  grid-area: topleft; 
+  background-color: white;
+}
+
+.topleft:hover {
+  background-color: yellow;
+}
+
+.topright { 
+  grid-area: topright;
+  background-color: white;
+}
+
+.topright:hover {
+  background-color: yellow;
+}
+
+.bottomleft { 
+  grid-area: bottomleft;
+  background-color: white;
+}
+
+.bottomleft:hover {
+  background-color: yellow;
+}
+
+.bottomright { 
+  grid-area: bottomright; 
+  background-color: white;
+}
+
+.bottomright:hover {
+  background-color: yellow;
+}
