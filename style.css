@@ -21,7 +21,7 @@ body {
 
 .logo { 
   grid-area: logo;
-  background-color: yellow;
+  background-color: #fada5e;
 }
 
 .topleft { 
@@ -30,7 +30,7 @@ body {
 }
 
 .topleft:hover {
-  background-color: yellow;
+  background-color: #fada5e;
 }
 
 .topright { 
@@ -39,7 +39,7 @@ body {
 }
 
 .topright:hover {
-  background-color: yellow;
+  background-color: #fada5e;
 }
 
 .bottomleft { 
@@ -48,7 +48,7 @@ body {
 }
 
 .bottomleft:hover {
-  background-color: yellow;
+  background-color: #fada5e;
 }
 
 .bottomright { 
@@ -57,5 +57,5 @@ body {
 }
 
 .bottomright:hover {
-  background-color: yellow;
+  background-color: #fada5e;
 }
